@@ -1,5 +1,5 @@
-var array = require('to-array');
-var contains = require('dom-contains');
+var array = require('timoxley-to-array');
+var contains = require('JayceTDE-dom-contains');
 
 function walk(el, process, done, root) {
   root = root || el;

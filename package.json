@@ -1,26 +1,12 @@
 {
   "name": "anthonyshort-dom-walk",
-  "version": "0.1.0",
   "description": "Walk down a DOM tree",
+  "version": "0.0.1",
+  "keywords": [],
   "main": "index.js",
-  "directories": {
-    "test": "test"
+  "dependencies": {
+    "timoxley-to-array": "git://github.com/npmcomponent/timoxley-to-array.git",
+    "JayceTDE-dom-contains": "git://github.com/npmcomponent/JayceTDE-dom-contains.git"
   },
-  "scripts": {
-    "test": "make test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/anthonyshort/dom-walk.git"
-  },
-  "keywords": [
-    "DOM",
-    "walk",
-    "iterate"
-  ],
-  "author": "Anthony Short",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/anthonyshort/dom-walk/issues"
-  }
+  "license": "MIT"
 }
